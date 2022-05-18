@@ -163,6 +163,7 @@
 
             <div class="form-check">
               <fieldset>
+                <legend>Checkbox for if shipping address is the same as billing address</legend>
                 <input type="checkbox" class="form-check-input" id="same-address">
                 <label class="form-check-label" for="same-address">Shipping address is the same as my billing
                   address</label>
@@ -171,6 +172,7 @@
 
             <div class="form-check">
               <fieldset>
+                <legend>Checkbox for saving information for next time</legend>
                 <input type="checkbox" class="form-check-input" id="save-info">
                 <label class="form-check-label" for="save-info">Save this information for next time</label>
               </fieldset>
@@ -182,20 +184,24 @@
 
             <div class="my-3">
                 <div class="form-check">
-                  <fieldset><input id="credit" name="paymentMethod" type="radio" class="form-check-input" checked required>
+                  <fieldset>
+                    <legend>Select the payment method to be Credit card</legend>
+                    <input id="credit" name="paymentMethod" type="radio" class="form-check-input" checked required>
                     <label class="form-check-label" for="credit">Credit card</label>
                   </fieldset>
                 </div>
                 <div class="form-check">
                   <fieldset>
+                    <legend>Select the payment method to be Debit card</legend>
                     <input id="debit" name="paymentMethod" type="radio" class="form-check-input" required>
                     <label class="form-check-label" for="debit">Debit card</label>
                   </fieldset>
                 </div>
                 <div class="form-check">
                   <fieldset>
-                  <input id="paypal" name="paymentMethod" type="radio" class="form-check-input" required>
-                  <label class="form-check-label" for="paypal">PayPal</label>
+                    <legend>Select the payment method to be Paypal</legend>
+                    <input id="paypal" name="paymentMethod" type="radio" class="form-check-input" required>
+                    <label class="form-check-label" for="paypal">PayPal</label>
                   </fieldset>
                 </div>
               </fieldset>
